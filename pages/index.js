@@ -30,7 +30,7 @@ export default function Home() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://your-backend-url.com/submit", {
+      const response = await fetch("https://skool-backend-y719.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
